@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TO-DO Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <header>
+        <h1>To do list</h1>
+    </header>
+
+    <div class="open-button" id="open-button">
+        <button class="btn">
+            <p class="btn-name">Novi zadatak</p>
+        </button>
+    </div>
+
+
+    <div class="task-div" id="task-div">
+
+        <div class="task-row-1">
+
+            <h1 class="naziv-zadatka">Naziv zadataka</h1>
+            <input id="naziv-input" type="text" class="naslov" placeholder="Naziv zadatka:">
+            <button id="cancel" class="cancel"><p>X</p></button>
+
+        </div>
+
+        <input placeholder="Sadrzaj zadatka:" type="text" class="tekst-liste" id="sadrzaj-input">
+
+        <button id="save" class="save">SAVE</button>
+    </div>
+
+    <div class="card" id="card">
+
+        <div class="prvi-red">
+
+            <h1 class="naslov-kartice">Naziv zadatka</h1>
+            <h2 class="naziv-kartice" id="naziv-kartice">Naslov</h2>
+        </div>
+
+        <h2 class="tekst-kartice" id="tekst-kartice"></h2>
+
+        <button class="card-cancel" id="card-cancel">X</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
